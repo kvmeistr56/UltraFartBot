@@ -1,6 +1,7 @@
 import httplib, urllib, urllib2, base64, json, csv, time
 from bs4 import BeautifulSoup
 
+#the Bing API key
 key = '6448c73604de4460a4a3ffd2824ef8e3'
 
 def getData(numArticles, searchString, key):
